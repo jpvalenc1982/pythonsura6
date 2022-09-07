@@ -1,0 +1,16 @@
+#LISTAS O ARREGLOS DE DATOS
+#UTILES PARA ALMACENAR MAS DE UN DATO EN UNA SOLA VARIABLE
+
+#CADA DATO DENTRO DE LA LISTA SE LLAMA ELEMENTOS
+#A CADA ELEMENTO LE CORRESPONDE UNA POSICIÓN O ÍNDICE
+
+numeros=[1,2,3,4,5]
+nombres=["Juan","Sara","Carlos","Catalina"]
+
+print(numeros)
+print(numeros[0])
+
+#RECORRER O ITERAR UNA LISTA (VECTOR, ARREGLO) DE DATOS
+
+for observador in numeros:
+    print(observador+10)
